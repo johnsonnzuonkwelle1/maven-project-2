@@ -22,8 +22,8 @@ pipeline {
     stage('SonarQube Scan') {
       steps {
         sh """mvn sonar:sonar \
-  -Dsonar.host.url=http://100.26.185.204:9000 \
-  -Dsonar.login=5d2c4b4f578464f6302d3677aed523d5fe3fb9af"""
+  -Dsonar.host.url=http://3.93.186.26:9000 \
+  -Dsonar.login=10cd3806a7c22297031ffdbc404d72c1ef2a8928 sudo mv nexus-3.32.0-03/ nexus"""
       }
     }
     stage('Upload to Artifactory') {
