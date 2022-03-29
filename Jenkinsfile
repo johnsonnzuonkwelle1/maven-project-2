@@ -23,7 +23,7 @@ pipeline {
       steps {
         sh """mvn sonar:sonar \
   -Dsonar.host.url=http://3.93.186.26:9000 \
-  -Dsonar.login=10cd3806a7c22297031ffdbc404d72c1ef2a8928 sudo mv nexus-3.32.0-03/ nexus"""
+  -Dsonar.login=10cd3806a7c22297031ffdbc404d72c1ef2a8928"""
       }
     }
     stage('Upload to Artifactory') {
