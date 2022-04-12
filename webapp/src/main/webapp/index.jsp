@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="header">
-  <h1>Hello JJ Tech Family !!!</h1>
+  <h1>Hello JJ Tech Family version2 !!!</h1>
   <p>Sample Java Application</p>
 </div>
 </body>
